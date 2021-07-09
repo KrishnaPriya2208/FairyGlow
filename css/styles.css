@@ -7,6 +7,8 @@
   background-color: #ff9999;
 } */
 
+/*Nav Bar & Title*/
+
 #title {
   background-color: #ff9999;
   color: #ffff;
@@ -83,6 +85,8 @@ p{
 
 }
 
+ /*features*/
+
 #features{
    padding: 7% 15%;
   }
@@ -101,6 +105,8 @@ p{
   color: #ffb3b3;
 }
 
+/* Testimonials */
+
 #testimonials{
   text-align: center;
   background-color: #ff8080;
@@ -109,7 +115,7 @@ p{
 
 .testimonialimg{
   width: 10%;
-  border-radius: 100%
+  border-radius: 100%;
   margin: 20px;
 }
 
@@ -117,6 +123,8 @@ p{
   padding: 7% 10%;
 }
 
+
+/* Pricing */
 #pricing{
   text-align: center;
   padding: 6% 15%;
@@ -145,6 +153,8 @@ p{
   font-weight: bold;
 }
 
+/* Call to Action */
+
 #cta{
   background-color: #ff8080;
   padding: 3% 15%;
@@ -153,9 +163,12 @@ p{
   color: #fff;
   font-weight: bold;
 }
+
 .login-button{
   margin: 3% 3% 5% 0;
 }
+
+/* footer */
 
 #footer {
   margin: 0.8%;
