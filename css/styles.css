@@ -1,10 +1,11 @@
 /*.wallpaper{
   padding-left: 100px;
-  padding-right: 100px;*/
-}
-body{
+  padding-right: 100px;
+}*/
+
+/* body{
   background-color: #ff9999;
-}
+} */
 
 #title {
   background-color: #ff9999;
@@ -12,8 +13,13 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 5% 3% 13%;
 }
+
+.big-heading{
+  padding-right: 50px;
+}
+
 
 h1{
   font-family: "Playfair Display', serif;";
@@ -29,13 +35,15 @@ h2{
   font-weight: bold;
 }
 
-h3{
+h3,h5{
   font-family: "Playfair Display', serif;";
 }
+h5{font-weight: bold;}
 
 .heading2{
   font-family: "Playfair Display', serif;";
   font-size: 3rem;
+  padding-top: 1%;
 }
 
 p{
@@ -47,7 +55,7 @@ p{
 }
 
 .navbar{
-  padding-bottom: 4.5rem;
+  padding-bottom: 3rem;
 }
 .navbar-nav{
   padding-left: 400px;
@@ -58,6 +66,10 @@ p{
   font-size: 3rem;
   font-weight: bold;
   color: #0000;
+}
+
+.navbar-brand:hover{
+  transform: scale(1.1);
 }
 
 .nav-item{
@@ -90,7 +102,6 @@ p{
 }
 
 #testimonials{
-
   text-align: center;
   background-color: #ff8080;
   color: #fff;
@@ -103,12 +114,18 @@ p{
 }
 
 .carousel-item{
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 #pricing{
   text-align: center;
-  padding: 7% 15%;
+  padding: 6% 15%;
+}
+.row{
+  padding-top: 3%;
+}
+.card-body{
+  background-color: #ff9999;
 }
 
 .prize-box{
@@ -118,8 +135,14 @@ p{
   color: #fff;
 }
 
-.products{
+.products {
   color: #fff;
+  font-weight: bold;
+}
+
+.btn-block{
+  padding: 1% 16%;
+  font-weight: bold;
 }
 
 #cta{
@@ -134,14 +157,15 @@ p{
   margin: 3% 3% 5% 0;
 }
 
-/*.heart{
-  color: #fff;
-  position: relative;
-  left: 120px;
-  right: 50px;
+#footer {
+  margin: 0.8%;
+  text-align: center;
 }
-*/
-#footer{
-  padding: 5% 15%;
+.social{
+  padding: 3% 5% 3% 5%;
+}
+.copyright {
+  font-size: 0.8rem;
+  padding-top: 5px;
   text-align: center;
 }
